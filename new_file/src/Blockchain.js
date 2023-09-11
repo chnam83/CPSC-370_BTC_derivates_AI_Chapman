@@ -43,6 +43,16 @@ class Blockchain extends Component {
         this.setState({ chain: chain });
     }
 
+    handleFormSubmit(e) {
+        e.preventDefault();
+        this.addBlock(this.state.newBlockData);
+        this.setState({ newBlockData: '' });
+    }
+
+    handleInputChange(e) {
+        this.setState({ newBlockData: e.target.value });
+    }
+
     render() {
         return (
             <div>
@@ -54,6 +64,10 @@ class Blockchain extends Component {
                         <h4>Previous Hash: {block.previousHash}</h4>
                     </div>
                 ))}
+                <form onSubmit={this.handleFormSubmit.bind(this)}>
+                    <input type="text" value={this.state.newBlockData} onChange={this.handleInputChange.bind(this)} />
+                    <input type="submit" value="Add Block" />
+                </form>
             </div>
         );
     }
