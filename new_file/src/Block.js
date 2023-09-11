@@ -49,3 +49,20 @@ class Block {
 }
 
 export default Block;
+import sha256 from 'crypto-js/sha256';
+
+class Block {
+    constructor(index, previousHash, timestamp, data, hash) {
+        this.index = index;
+        this.previousHash = previousHash;
+        this.timestamp = timestamp;
+        this.data = data;
+        this.hash = this.calculateHash();
+    }
+
+    calculateHash() {
+        return sha256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data)).toString();
+    }
+}
+
+export default Block;
