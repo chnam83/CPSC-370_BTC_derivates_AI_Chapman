@@ -32,13 +32,13 @@ class Blockchain extends Component {
         return crypto.SHA256(index + previousHash + timestamp + data).toString();
     }
 
-    addBlock(data) {
+    addBlock(data, position, direction) {
         let chain = this.state.chain;
         let index = chain.length;
         let timestamp = Date.now();
         let previousHash = chain[chain.length - 1].hash;
         let hash = this.calculateHash(index, previousHash, timestamp, data);
-        let newBlock = new Block(index, previousHash, timestamp, data, hash);
+        let newBlock = new Block(index, previousHash, timestamp, data, hash, position, direction);
         chain.push(newBlock);
         this.setState({ chain: chain });
     }

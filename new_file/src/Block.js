@@ -52,16 +52,18 @@ export default Block;
 import sha256 from 'crypto-js/sha256';
 
 class Block {
-    constructor(index, previousHash, timestamp, data, hash) {
+    constructor(index, previousHash, timestamp, data, hash, position, direction) {
         this.index = index;
         this.previousHash = previousHash;
         this.timestamp = timestamp;
         this.data = data;
         this.hash = this.calculateHash();
+        this.position = position;
+        this.direction = direction;
     }
 
     calculateHash() {
-        return sha256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data)).toString();
+        return sha256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data) + JSON.stringify(this.position) + this.direction).toString();
     }
 }
 
