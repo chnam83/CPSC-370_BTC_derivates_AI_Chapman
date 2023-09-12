@@ -38,3 +38,14 @@ def is_chain_valid(blockchain):
             return False
 
     return True
+class Blockchain:
+    def __init__(self):
+        self.chain = []
+
+    def add_block(self, transactions):
+        # TODO: Implement this method
+        pass
+
+    def validate_chain(self):
+        # TODO: Implement this method
+        pass
