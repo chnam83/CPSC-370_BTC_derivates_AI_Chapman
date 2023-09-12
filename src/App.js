@@ -14,3 +14,14 @@ class App extends React.Component {
 }
 
 export default App;
+import React from 'react';
+
+function App() {
+  return (
+    <div className="App">
+      {/* Add your components here */}
+    </div>
+  );
+}
+
+export default App;
