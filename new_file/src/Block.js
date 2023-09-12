@@ -26,6 +26,8 @@ class Block extends React.Component {
                 <h3>Timestamp: {this.props.timestamp}</h3>
                 <h3>Hash: {this.props.hash}</h3>
                 <h3>Previous Hash: {this.props.previousHash}</h3>
+                <h3>Position: {this.props.position}</h3>
+                <h3>Direction: {this.props.direction}</h3>
             </div>
         );
     }
