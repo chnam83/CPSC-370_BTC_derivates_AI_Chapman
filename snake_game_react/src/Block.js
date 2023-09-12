@@ -8,7 +8,9 @@ class Block extends React.Component {
             timestamp: props.timestamp,
             data: props.data,
             previousHash: props.previousHash,
-            hash: props.hash
+            hash: props.hash,
+            position: props.position,
+            direction: props.direction
         };
     }
 
@@ -20,6 +22,8 @@ class Block extends React.Component {
                 <div>Data: {this.state.data}</div>
                 <div>Previous Hash: {this.state.previousHash}</div>
                 <div>Hash: {this.state.hash}</div>
+                <div>Position: {this.state.position}</div>
+                <div>Direction: {this.state.direction}</div>
             </div>
         );
     }
