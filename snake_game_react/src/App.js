@@ -1,25 +1,24 @@
 import React from 'react';
-import Snake from './components/Snake';
-import Food from './components/Food';
+import Blockchain from './Blockchain';
 
-function App() {
-  return (
-    <div className="App">
-      <Snake />
-      <Food />
-    </div>
-  );
-}
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            blockchain: []
+        };
+    }
 
-export default App;
-import React from 'react';
+    // Add methods to add a new block and validate the blockchain here
 
-function App() {
-  return (
-    <div>
-      <h1>Snake Game</h1>
-    </div>
-  );
+    render() {
+        return (
+            <div>
+                <h1>Blockchain</h1>
+                <Blockchain chain={this.state.blockchain} />
+            </div>
+        );
+    }
 }
 
 export default App;
