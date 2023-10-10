@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "jest",
+    "test:interblock": "jest test/interblock.test.ts",
     "start": "npm run start:interblock && (ts-node blockchain1.ts & ts-node blockchain2.ts & wait)",
     "start:blockchain2": "ts-node blockchain2.ts",
     "start:interblock": "ts-node interblockchain.ts"
