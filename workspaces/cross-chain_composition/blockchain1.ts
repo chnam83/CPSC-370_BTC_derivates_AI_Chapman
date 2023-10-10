@@ -62,9 +62,14 @@ import BlockData from './types';
     // Start producing blocks
     startProducingBlocks();
 
+    const getState = () => chain;
+    const setState = (newChain: Block[]) => { chain = newChain; };
+
     return {
         chain,
-        createBlock
+        createBlock,
+        getState,
+        setState
     };
 }
 Blockchain1();

@@ -6,10 +6,23 @@ interface Blockchain {
 }
 
 const InterBlockchain = () => {
+    import Blockchain1 from './blockchain1';
+    import Blockchain2 from './blockchain2';
+
     console.log('InterBlockchain function called');
-    const sharedState: any = {};
+
+    const blockchain1 = Blockchain1();
+    const blockchain2 = Blockchain2();
+
+    let sharedState: Block[] = [...blockchain1.getState(), ...blockchain2.getState()];
 
     let lastBlockTime: number | null = null;
+
+    const updateSharedState = () => {
+        sharedState = [...blockchain1.getState(), ...blockchain2.getState()];
+        blockchain1.setState(sharedState);
+        blockchain2.setState(sharedState);
+    };
 
 const fs = require('fs');
 const path = require('path');
