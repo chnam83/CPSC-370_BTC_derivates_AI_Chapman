@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 function App() {
   const [inputValue, setInputValue] = useState('');
@@ -7,9 +8,14 @@ function App() {
     setInputValue(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log(inputValue);
+    try {
+      const response = await axios.get(`https://blockchain.info/rawaddr/${inputValue}`);
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
