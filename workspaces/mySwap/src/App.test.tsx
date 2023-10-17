@@ -20,3 +20,12 @@ test('renders without crashing', () => {
   const { getByText } = render(<App />);
   expect(getByText(/Hello, world!/i)).toBeInTheDocument();
 });
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders submit button', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/submit/i);
+  expect(linkElement).toBeInTheDocument();
+});
