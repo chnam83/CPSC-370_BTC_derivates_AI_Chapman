@@ -1,15 +1,20 @@
 # Lecture 16
 
 <div align="center">
-  <img src="./Dex.png" width="250" height="250" />
+  <img src="./DeX.png" width="250" height="250" />
 </div>
 
 # Housekeeping
 
 - Mid Term Results to be published today
 - More help with PRs and Git
-- Update PR Submissions to Monday after office hours
-- AI Usage Limits with Open Router
+- Update PR Submissions to Monday by EoD; see me during office hours if help needed after class review today
+- DM / Visit office hours for Quizzes/Mid-term Grade Boost
+- AI Usage Limits with Open Router substituting Open AI
+```
+mv .aider.conf.yml .aider.conf.yml-or
+mv .aider.conf.yml-oai .aider.conf.yml
+```
 
 # Common Problems: Pull Request Reviews and Git usage
 
@@ -24,7 +29,7 @@
 
 ##  DeXs (Decentralized Exchanges)
 
-* Concepts:
+* DeX Concepts:
 - * Central Limit Order Books 
 - * Automated Market Makers
 - * Bonding Curves
@@ -52,4 +57,5 @@
 ## Resources
 
 * [Decentralized Exchanges](https://coinmarketcap.com/academy/article/the-evolution-of-decentralized-exchanges)
+* [CLOB and AMM Compared](https://www.blog.goosefx.io/clob-vs-amms/)
 * [Decentralized Media Evolution](https://tftc.io/453-from-barstool-to-mash-with-louis-roberts/)
