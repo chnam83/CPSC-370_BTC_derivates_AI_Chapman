@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import MainUI from './MainUI';
 
 function App() {
   const [inputValue, setInputValue] = useState('');
@@ -19,12 +20,7 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <form onSubmit={handleSubmit}>
-        <input type="text" value={inputValue} onChange={handleInputChange} />
-        <button type="submit">Submit</button>
-      </form>
-    </div>
+    <MainUI />
   );
 }
 
