@@ -1,0 +1,1 @@
+{"rustc":17942332214210601750,"features":"[\"alloc\", \"default\", \"std\"]","target":4470887328351089203,"profile":3567329628440936607,"path":13588424112141674902,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/half-037297e2b2f59a52/dep-lib-half"}}],"rustflags":[],"metadata":576232026459312637,"config":2202906307356721367,"compile_kind":0}

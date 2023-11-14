@@ -1,0 +1,11 @@
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/deps/ascii-73ea7ba0e62ac537.rmeta: /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/lib.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_char.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_str.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_string.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/free_functions.rs
+
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/deps/libascii-73ea7ba0e62ac537.rlib: /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/lib.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_char.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_str.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_string.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/free_functions.rs
+
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/deps/ascii-73ea7ba0e62ac537.d: /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/lib.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_char.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_str.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_string.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/free_functions.rs
+
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/lib.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_char.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_str.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/ascii_string.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ascii-1.1.0/src/free_functions.rs:

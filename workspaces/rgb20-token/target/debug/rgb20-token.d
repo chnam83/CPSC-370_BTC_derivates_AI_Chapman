@@ -1,0 +1,1 @@
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/rgb20-token: /Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/src/main.rs

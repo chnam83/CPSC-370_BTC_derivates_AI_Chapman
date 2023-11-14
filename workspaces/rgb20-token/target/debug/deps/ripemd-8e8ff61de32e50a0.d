@@ -1,0 +1,11 @@
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/deps/ripemd-8e8ff61de32e50a0.rmeta: /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/lib.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c128.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c160.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c256.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c320.rs
+
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/deps/libripemd-8e8ff61de32e50a0.rlib: /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/lib.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c128.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c160.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c256.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c320.rs
+
+/Users/chrisnam/Documents/CPSC-370_BTC_derivates_AI_Chapman/workspaces/rgb20-token/target/debug/deps/ripemd-8e8ff61de32e50a0.d: /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/lib.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c128.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c160.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c256.rs /Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c320.rs
+
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/lib.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c128.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c160.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c256.rs:
+/Users/chrisnam/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ripemd-0.1.3/src/c320.rs:
