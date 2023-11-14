@@ -7,12 +7,17 @@
 # Housekeeping
 
 - Reminder: Open Router credits are done
-- RGB final assignment issues; 
+- `.aider.conf.yml` format:
+```
+openai-api-key: sk-<your_key>
+model: gpt-4-1106-preview
+```
+- RGB final assignment issues; Will revisit Thurs.
 - Grading assignments continued
 - Canvas Quiz errors, will provide additional 2 pts in credit for Canvas problems
-- Please respond to Canvas Survey for final project: review skills; Will start coding on Thurs.
+- Please respond to Canvas Survey if you haven't during class; will review before second lecture item
 - Setting up lightning node with test L-BTC; may not be avail. until next week
-- Likely one more quiz next week; no programming assignment
+- Likely one more quiz next week; continous programming assignment here on out...
 
 ## RGB part III (restarted)
 
@@ -33,6 +38,16 @@
 
 ## Start-in on User Interface design
 
+- TBD: Which DApp will we do?
+- Groups:
+- * Design
+- * User Interface
+- * Back-End
+- * Quality Assurance (Software Engr. approach to AI)
+
 ## Resources
 
 * [RGB part II assignment](../assignments/31_Oct_2023.md)
+* [Humane AI Pin](https://mashable.com/article/humane-ai-pin-futuristic-features)
+* [ACM Meetup](https://meetu.ps/e/MBXNY/hvZVH/i)
+* [Economic Impact of AI](https://podcasts.apple.com/us/podcast/what-bitcoin-did/id1317356120?i=1000632835640)
