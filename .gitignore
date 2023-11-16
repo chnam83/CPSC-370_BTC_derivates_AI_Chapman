@@ -9,3 +9,9 @@ yarn.lock
 workspaces/mySwap/node_modules/
 workspaces/mySwap/src/abis
 workspaces/mySwap/src/types/v3
+../../GitHub/
+../../interface/
+../../package-lock.json
+../../package.json
+../btc-rpc-explorer/
+../interface /
